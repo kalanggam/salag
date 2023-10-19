@@ -49,4 +49,4 @@ until we are all free.
 
 Published {{ pubDate | postDate }}
 
-*Last modified {{ page.date | postDate }}*
+_Last modified {{ page.date | postDate }}_
