@@ -10,3 +10,5 @@ override:tags: []
 <li><a href="{{ poem.url }}">{{ poem.data.title }}</a></li>
 {%- endfor -%}
 </ul>
+
+[&larr; Home](/)
