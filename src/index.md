@@ -13,6 +13,7 @@ links (for now).
 ## Here
 
 [Cebuano](/ceb/)  
+[Now](/now/)  
 [Poetry](/poetry/)
 
 ---
