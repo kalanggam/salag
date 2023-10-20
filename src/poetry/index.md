@@ -3,6 +3,8 @@ title: Poetry
 layout: page.njk
 permalink: /poetry/index.html
 override:tags: []
+eleventyNavigation:
+  key: Poetry
 ---
 
 <ul>
@@ -10,5 +12,3 @@ override:tags: []
 <li><a href="{{ poem.url }}">{{ poem.data.title }}</a></li>
 {%- endfor -%}
 </ul>
-
-[&larr; Home](/)

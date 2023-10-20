@@ -1,5 +1,5 @@
 {
   "layout": "page.njk",
-  "permalink": "/poem/{{ page.fileSlug }}/",
+  "permalink": "/poem/{{ title | slug }}/",
   "tags": "poems"
 }

@@ -1,19 +1,12 @@
 ---
 layout: page.njk
 date: Last Modified
+eleventyNavigation:
+  key: Home
+  order: -1
 ---
 
-hello! my name is gil and this is my site. pronouns are he/they. i write and tinker with software/hardware. i don't have much to put here except links (for now).
-
----
-
-## Here
-
-[Cebuano](/ceb/)  
-[Now](/now/)  
-[Poetry](/poetry/)
-
----
+Hello! my name is gil and this is my site. pronouns are he/they. i write and tinker with software/hardware. i don't have much to put here except links (for now).
 
 ## Links
 

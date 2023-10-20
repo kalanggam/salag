@@ -1,3 +1,7 @@
 <header>
   <h1>{{ title or meta.siteName }}</h1>
+  <hr>
+  <h2>Navigation</h2>
+  {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+  <hr>
 </header>
