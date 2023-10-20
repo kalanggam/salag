@@ -1,12 +1,9 @@
 ---
-title: gils.nexus
-layout: base.njk
+layout: page.njk
 date: Last Modified
 ---
 
-hello! my name is gil and this is my site. pronouns are he/they. i write and
-tinker with software/hardware. i don't have much to put here except
-links (for now).
+hello! my name is gil and this is my site. pronouns are he/they. i write and tinker with software/hardware. i don't have much to put here except links (for now).
 
 ---
 
@@ -20,12 +17,9 @@ links (for now).
 
 ## Links
 
-[hol.ogra.ph](https://hol.ogra.ph/@gil) &mdash; federated
-microblogging (i'm a co-admin here!)  
-[pixelfed.social](https://pixelfed.social/kalanggam) &mdash;
-federated photo and video sharing  
-[beehaw](https://beehaw.org/u/kalanggam) &mdash; federated link
-aggregator/discussions  
+[hol.ogra.ph](https://hol.ogra.ph/@gil) &mdash; federated microblogging (i'm a co-admin here!)  
+[pixelfed.social](https://pixelfed.social/kalanggam) &mdash; federated photo and video sharing  
+[beehaw](https://beehaw.org/u/kalanggam) &mdash; federated link aggregator/discussions  
 [bookwyrm.social](https://bookwyrm.social/user/kalanggam) &mdash; federated book reviews
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: Poetry
-layout: base.njk
+layout: page.njk
 permalink: /poetry/index.html
 override:tags: []
 ---

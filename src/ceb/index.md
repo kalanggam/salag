@@ -1,6 +1,6 @@
 ---
 title: Cebuano
-layout: base.njk
+layout: page.njk
 ---
 
 [&larr; Home](/)

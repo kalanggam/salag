@@ -1,6 +1,6 @@
 ---
 title: Now
-layout: base.njk
+layout: page.njk
 ---
 
 Hello!
