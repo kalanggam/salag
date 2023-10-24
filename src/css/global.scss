@@ -1,0 +1,67 @@
+@use "colors";
+@use "fonts";
+
+/*
+Colors
+======
+*/
+$bg: colors.$paper;
+$fg: scale-color(colors.$magenta-600, $lightness: -20%);
+$fg-logo: colors.$magenta-600;
+$link: colors.$green-600;
+$bg-hover: scale-color(colors.$green-400, $alpha: -75%);
+$fg-hover: colors.$green-600;
+$bg-highlight: scale-color(colors.$magenta-600, $alpha: -75%);
+
+body {
+  background-color: $bg;
+  color: $fg;
+  font-family: Alkhemikal;
+  font-size: 1.5rem;
+}
+
+::selection {
+  background: $bg-highlight;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+main, article {
+  padding: 0.5em;
+}
+
+main :where(ol, ul), article :where(ol, ul) {
+  all: revert;
+  margin: 0;
+}
+
+a {
+  color: $link;
+  border-radius: 10px;
+}
+
+a:hover, a:active {
+  background-color: $bg-hover;
+  color: $fg-hover;
+}
+
+.logo, .logo:hover, .logo:active {
+  color: $fg-logo;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar {
+  margin: 0 0.5em;
+  text-align: center;
+}
+
+.navbar :where(li) {
+  display: inline-flex;
+}

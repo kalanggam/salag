@@ -7,7 +7,7 @@ pubDate: 2023-05-18t20:12:32-05:00
 Hey girl,  
 you remind me  
 that I have two hearts,  
-two kasingkasings whose beats sing  
+two _kasingkasings_ whose beats sing  
 for you, for me, for us, for we,  
 brown girls and brown queers, who rise  
 like the sun after gentle rains and eastward winds.

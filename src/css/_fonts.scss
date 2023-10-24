@@ -1,0 +1,46 @@
+/*
+Fonts
+=====
+*/
+
+/*
+Alkhemikal ***
+*/
+@font-face {
+  font-family: Alkhemikal;
+  src: url(../font/Alkhemikal.ttf);
+}
+
+/*
+Junction ***
+*/
+@font-face {
+  font-family: Junction;
+  src: url(../font/Junction-Regular.woff);
+}
+
+@font-face {
+  font-family: Junction;
+  src: url(../font/Junction-Bold.woff);
+  font-weight: bold;
+}
+
+/* 
+Linden Hill ***
+*/
+@font-face {
+  font-family: "Linden Hill";
+  src: url(../font/LindenHill-Regular.woff);
+}
+
+@font-face {
+  font-family: "Linden Hill";
+  src: url(../font/LindenHill-Italic.woff);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Linden Hill";
+  src: url(../font/LindenHill-Italic.woff);
+  font-style: oblique;
+}
