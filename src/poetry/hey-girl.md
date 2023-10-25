@@ -1,7 +1,6 @@
 ---
 title: Hey Girl
 date: Last Modified
-pubDate: 2023-05-18t20:12:32-05:00
 ---
 
 Hey girl,  
@@ -46,7 +45,3 @@ You reminded me to fight
 until we are all free.
 
 [&larr; All poetry](/poetry/)
-
-Published {{ pubDate | postDate }}
-
-_Last modified {{ page.date | postDate }}_

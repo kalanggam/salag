@@ -1,1 +1,5 @@
-<footer></footer>
+<footer>
+  <hr>
+  Made with <a href="https://www.11ty.dev/">11ty</a>.
+  {% if page.date %}<i>Last updated on {{ page.date | postDate }}</i>{% endif %}
+</footer>

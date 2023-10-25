@@ -94,6 +94,10 @@ main :where(ol, ul), article :where(ol, ul) {
   margin: 0;
 }
 
+header.header_main {
+  text-align: center;
+}
+
 a {
   color: rgb(102, 128, 11);
   border-radius: 10px;
@@ -101,18 +105,12 @@ a {
 
 a:hover, a:active {
   background-color: rgba(135, 154, 57, 0.25);
-  color: rgb(102, 128, 11);
 }
 
-.logo, .logo:hover, .logo:active {
+a.logo, a.logo:hover, a.logo:active {
+  font-size: 3em;
   color: rgb(160, 47, 111);
-  text-align: center;
   text-decoration: none;
-}
-
-.navbar {
-  margin: 0 0.5em;
-  text-align: center;
 }
 
 .navbar :where(li) {

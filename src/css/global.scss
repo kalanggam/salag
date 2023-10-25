@@ -10,7 +10,6 @@ $fg: scale-color(colors.$magenta-600, $lightness: -20%);
 $fg-logo: colors.$magenta-600;
 $link: colors.$green-600;
 $bg-hover: scale-color(colors.$green-400, $alpha: -75%);
-$fg-hover: colors.$green-600;
 $bg-highlight: scale-color(colors.$magenta-600, $alpha: -75%);
 
 body {
@@ -41,6 +40,10 @@ main :where(ol, ul), article :where(ol, ul) {
   margin: 0;
 }
 
+header.header_main {
+  text-align: center;
+}
+
 a {
   color: $link;
   border-radius: 10px;
@@ -48,18 +51,12 @@ a {
 
 a:hover, a:active {
   background-color: $bg-hover;
-  color: $fg-hover;
 }
 
-.logo, .logo:hover, .logo:active {
+a.logo, a.logo:hover, a.logo:active {
+  font-size: 3em;
   color: $fg-logo;
-  text-align: center;
-  text-decoration: none;
-}
-
-.navbar {
-  margin: 0 0.5em;
-  text-align: center;
+  text-decoration: none;  
 }
 
 .navbar :where(li) {
