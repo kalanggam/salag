@@ -7,8 +7,9 @@ eleventyNavigation:
   key: Poetry
 ---
 
-<ul>
-{%- for poem in collections.poems -%}
-<li><a href="{{ poem.url }}">{{ poem.data.title }}</a></li>
+{%- for poem in collections.poems reversed -%}
+  {% if forloop.first == true %}<ul>{% endif %}
+  <li><a href="{{ poem.url }}">{{ poem.data.title }}</a>
+  &mdash; <i>updated {{ poem.date | postDate }}</i></li>
+  {% if forloop.last == true %}</ul>{% endif %}
 {%- endfor -%}
-</ul>
